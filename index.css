@@ -98,6 +98,20 @@ body{
     width:400px;
 
 }
+.bodysection .bodyheader p span{
+    border: 1px solid blue;
+    border-radius: 50%;
+    height:40px;
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: blue;
+    
+
+
+}
 .cards{
     display:grid;
     grid-template-columns: 333px 333px 1fr;
@@ -312,4 +326,19 @@ body{
 .providers button:hover{
     color:black;
     background-color: white;
+}
+
+
+
+
+
+.ladyimage1 p{
+
+}
+
+.ladyimage1 p span{
+    font-size:small;
+    
+    
+
 }
