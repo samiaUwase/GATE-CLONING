@@ -55,10 +55,41 @@ body{
     margin-left:5px;
     margin-top:5px;
     margin-right:20px;
+    filter:invert(1);
 }
 #topsign{
     margin-left:400px;
     margin-right:20px;
     margin-bottom:50px;
-    filter:invert(1);
+    
+}
+
+.bodycontent{
+    display:flex;
+    align-items:center;
+    height:300px;
+    padding: 0 60px;
+    background-color:#050e1e
+}
+.leftside{
+    display:flex;
+    flex-direction:column;
+   
+}
+.leftimg1{
+    height:80px;
+    width:50px;
+    
+}
+.leftimg2{
+    height:40px;
+    width:40px;
+}
+.leftimg3{
+    height:40px;
+    width:40px;
+}
+.leftimg4{
+    height:40px;
+    width:40px;
 }
